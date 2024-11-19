@@ -1,7 +1,7 @@
 "use server";
 
-import BlurImage from "@/components/BlurImage";
-import { supabaseAdmin } from "@/utils/supabase";
+import BlurImage from "@/components/ui/BlurImage";
+import { supabaseAdmin } from "@/lib/supabase";
 
 export default async function Page() {
   const { data: dreams } = await supabaseAdmin

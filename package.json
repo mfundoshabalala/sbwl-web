@@ -10,10 +10,15 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.46.1",
+    "@tabler/icons-react": "^3.22.0",
     "@tanstack/react-query": "^5.60.5",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.17",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-motion": "0.4.3-beta",
     "zustand": "^5.0.1"
   },
   "devDependencies": {
